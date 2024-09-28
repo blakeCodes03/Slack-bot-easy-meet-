@@ -1,5 +1,5 @@
-from django.urls import path, include
-from slack_api.views import BotSettings
+from django.urls import path
+# from slack_api.views import BotSettings
 from slack_api.views import handle_slack_event
 
 urlpatterns = [

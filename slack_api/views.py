@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from rest_framework import generics
-from api.models import Api_response
-from api.serializer import ApiSerializer
+from slack_api.models import Api_response
+from slack_api.serializer import ApiSerializer
 from django.http import JsonResponse, HttpResponseBadRequest
 import json
 import google.generativeai as genai
